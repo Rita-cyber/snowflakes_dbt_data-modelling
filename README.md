@@ -1,4 +1,4 @@
-# snowflakes_dbt_data-modelling
+# snowflake_dbt_data-modelling
 
 
 
