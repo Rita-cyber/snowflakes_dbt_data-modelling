@@ -1,0 +1,44 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "schema": "jaffle_shop",
+                "role": "ACCOUNTADMIN"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "My Snowflake",
+            "username": "RITA01",
+            "password": "Chinwe31033103",
+            "database": "raw_data",
+            "warehouse": "transforming_data",
+            "account": "UODRXGG-OD36898"
+        },
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "schema": "stripe",
+                "role": "ACCOUNTADMIN"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "account": "UODRXGG-OD36898",
+            "name": "My Snowflake",
+            "username": "RITA01",
+            "password": "Chinwe31033103",
+            "database": "analytics_data",
+            "warehouse": "transforming_data"
+        }
+    ]
+}
